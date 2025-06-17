@@ -1,0 +1,20 @@
+{"time":"2025-02-14T12:00:36.867306+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2025-02-14T12:00:36.867389+05:30","level":"INFO","msg":"created symlink","path":"/Users/adityakr/Library/CloudStorage/OneDrive-IIITHyderabad/Mac/Aditya_Files/IIITH/Sem6/Computer_Vision/Assignments/Assignment2/assignment-2-Aditya-S-Kul/Q1/wandb/run-20250214_120033-xpqd3gjv/logs/debug-core.log"}
+{"time":"2025-02-14T12:00:36.86769+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2025-02-14T12:00:36.874791+05:30","level":"INFO","msg":"created new stream","id":"xpqd3gjv"}
+{"time":"2025-02-14T12:00:36.874848+05:30","level":"INFO","msg":"stream: started","id":"xpqd3gjv"}
+{"time":"2025-02-14T12:00:36.874871+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"xpqd3gjv"}}
+{"time":"2025-02-14T12:00:36.874855+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"xpqd3gjv"}}
+{"time":"2025-02-14T12:00:36.874901+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"xpqd3gjv"}}
+{"time":"2025-02-14T12:00:37.36078+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2025-02-14T12:00:37.361452+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-14T12:00:37.627816+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-14T12:01:06.184094+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-14T12:01:06.785005+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-14T12:01:06.785039+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-14T12:01:08.033381+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-14T12:01:09.425471+05:30","level":"INFO","msg":"stream: closing","id":"xpqd3gjv"}
+{"time":"2025-02-14T12:01:09.425614+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"xpqd3gjv"}}
+{"time":"2025-02-14T12:01:09.425662+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"xpqd3gjv"}}
+{"time":"2025-02-14T12:01:09.425689+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"xpqd3gjv"}}
+{"time":"2025-02-14T12:01:09.42636+05:30","level":"INFO","msg":"stream: closed","id":"xpqd3gjv"}

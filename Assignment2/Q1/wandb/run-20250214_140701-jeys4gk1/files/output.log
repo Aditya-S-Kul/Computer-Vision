@@ -1,0 +1,6 @@
+[Modified_B_Pretrained_36] Epoch 1/5 - Train Loss: 0.8192, Train Acc: 0.7216, Test Loss: 0.7844, Test Acc: 0.7511, Test F1: 0.7514
+[Modified_B_Pretrained_36] Epoch 2/5 - Train Loss: 0.5001, Train Acc: 0.8301, Test Loss: 0.4856, Test Acc: 0.8339, Test F1: 0.8335
+[Modified_B_Pretrained_36] Epoch 3/5 - Train Loss: 0.3558, Train Acc: 0.8782, Test Loss: 0.5306, Test Acc: 0.8318, Test F1: 0.8328
+[Modified_B_Pretrained_36] Epoch 4/5 - Train Loss: 0.2647, Train Acc: 0.9093, Test Loss: 0.5127, Test Acc: 0.8373, Test F1: 0.8371
+[Modified_B_Pretrained_36] Epoch 5/5 - Train Loss: 0.2038, Train Acc: 0.9308, Test Loss: 0.5985, Test Acc: 0.8322, Test F1: 0.8305
+[Modified_B_Pretrained_36] Final Test Loss: 0.5985, Test Accuracy: 0.8322, Test F1 Score: 0.8305

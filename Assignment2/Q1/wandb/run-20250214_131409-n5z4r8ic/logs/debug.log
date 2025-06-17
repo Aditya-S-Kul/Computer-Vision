@@ -1,0 +1,51 @@
+2025-02-14 13:14:09,759 INFO    MainThread:64326 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2025-02-14 13:14:09,759 INFO    MainThread:64326 [wandb_setup.py:_flush():79] Configure stats pid to 64326
+2025-02-14 13:14:09,759 INFO    MainThread:64326 [wandb_setup.py:_flush():79] Loading settings from /Users/adityakr/.config/wandb/settings
+2025-02-14 13:14:09,759 INFO    MainThread:64326 [wandb_setup.py:_flush():79] Loading settings from /Users/adityakr/Library/CloudStorage/OneDrive-IIITHyderabad/Mac/Aditya_Files/IIITH/Sem6/Computer_Vision/Assignments/Assignment2/assignment-2-Aditya-S-Kul/Q1/wandb/settings
+2025-02-14 13:14:09,759 INFO    MainThread:64326 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2025-02-14 13:14:09,759 INFO    MainThread:64326 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2025-02-14 13:14:09,759 INFO    MainThread:64326 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2025-02-14 13:14:09,759 INFO    MainThread:64326 [wandb_setup.py:_flush():79] Applying login settings: {}
+2025-02-14 13:14:09,759 INFO    MainThread:64326 [wandb_init.py:_log_setup():532] Logging user logs to /Users/adityakr/Library/CloudStorage/OneDrive-IIITHyderabad/Mac/Aditya_Files/IIITH/Sem6/Computer_Vision/Assignments/Assignment2/assignment-2-Aditya-S-Kul/Q1/wandb/run-20250214_131409-n5z4r8ic/logs/debug.log
+2025-02-14 13:14:09,759 INFO    MainThread:64326 [wandb_init.py:_log_setup():533] Logging internal logs to /Users/adityakr/Library/CloudStorage/OneDrive-IIITHyderabad/Mac/Aditya_Files/IIITH/Sem6/Computer_Vision/Assignments/Assignment2/assignment-2-Aditya-S-Kul/Q1/wandb/run-20250214_131409-n5z4r8ic/logs/debug-internal.log
+2025-02-14 13:14:09,759 INFO    MainThread:64326 [wandb_init.py:_jupyter_setup():478] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x16f81aae0>
+2025-02-14 13:14:09,759 INFO    MainThread:64326 [wandb_init.py:init():617] calling init triggers
+2025-02-14 13:14:09,759 INFO    MainThread:64326 [wandb_init.py:init():624] wandb.init called with sweep_config: {}
+config: {}
+2025-02-14 13:14:09,759 INFO    MainThread:64326 [wandb_init.py:init():667] starting backend
+2025-02-14 13:14:09,759 INFO    MainThread:64326 [wandb_init.py:init():671] sending inform_init request
+2025-02-14 13:14:09,765 INFO    MainThread:64326 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2025-02-14 13:14:09,768 INFO    MainThread:64326 [wandb_init.py:init():684] backend started and connected
+2025-02-14 13:14:09,779 INFO    MainThread:64326 [wandb_run.py:_label_probe_notebook():1346] probe notebook
+2025-02-14 13:14:09,782 INFO    MainThread:64326 [wandb_init.py:init():779] updated telemetry
+2025-02-14 13:14:09,824 INFO    MainThread:64326 [wandb_init.py:init():812] communicating run to backend with 90.0 second timeout
+2025-02-14 13:14:10,232 INFO    MainThread:64326 [wandb_init.py:init():863] starting run threads in backend
+2025-02-14 13:14:10,398 INFO    MainThread:64326 [wandb_run.py:_console_start():2465] atexit reg
+2025-02-14 13:14:10,398 INFO    MainThread:64326 [wandb_run.py:_redirect():2313] redirect: wrap_raw
+2025-02-14 13:14:10,398 INFO    MainThread:64326 [wandb_run.py:_redirect():2378] Wrapping output streams.
+2025-02-14 13:14:10,398 INFO    MainThread:64326 [wandb_run.py:_redirect():2403] Redirects installed.
+2025-02-14 13:14:10,398 INFO    MainThread:64326 [wandb_init.py:init():907] run started, returning control to user process
+2025-02-14 13:14:10,592 INFO    MainThread:64326 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2025-02-14 13:14:10,592 INFO    MainThread:64326 [wandb_setup.py:_flush():79] Configure stats pid to 64326
+2025-02-14 13:14:10,592 INFO    MainThread:64326 [wandb_setup.py:_flush():79] Loading settings from /Users/adityakr/.config/wandb/settings
+2025-02-14 13:14:10,592 INFO    MainThread:64326 [wandb_setup.py:_flush():79] Loading settings from /Users/adityakr/Library/CloudStorage/OneDrive-IIITHyderabad/Mac/Aditya_Files/IIITH/Sem6/Computer_Vision/Assignments/Assignment2/assignment-2-Aditya-S-Kul/Q1/wandb/settings
+2025-02-14 13:14:10,592 INFO    MainThread:64326 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2025-02-14 13:14:10,592 INFO    MainThread:64326 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2025-02-14 13:14:10,592 INFO    MainThread:64326 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2025-02-14 13:14:10,592 INFO    MainThread:64326 [wandb_setup.py:_flush():79] Applying login settings: {}
+2025-02-14 13:14:10,592 INFO    MainThread:64326 [wandb_init.py:_log_setup():532] Logging user logs to /Users/adityakr/Library/CloudStorage/OneDrive-IIITHyderabad/Mac/Aditya_Files/IIITH/Sem6/Computer_Vision/Assignments/Assignment2/assignment-2-Aditya-S-Kul/Q1/wandb/run-20250214_131410-f71j6hp3/logs/debug.log
+2025-02-14 13:14:10,592 INFO    MainThread:64326 [wandb_init.py:_log_setup():533] Logging internal logs to /Users/adityakr/Library/CloudStorage/OneDrive-IIITHyderabad/Mac/Aditya_Files/IIITH/Sem6/Computer_Vision/Assignments/Assignment2/assignment-2-Aditya-S-Kul/Q1/wandb/run-20250214_131410-f71j6hp3/logs/debug-internal.log
+2025-02-14 13:14:10,592 INFO    MainThread:64326 [wandb_init.py:init():617] calling init triggers
+2025-02-14 13:14:10,592 INFO    MainThread:64326 [wandb_init.py:init():624] wandb.init called with sweep_config: {}
+config: {}
+2025-02-14 13:14:10,592 INFO    MainThread:64326 [wandb_init.py:init():642] re-initializing run, found existing run on stack: n5z4r8ic
+2025-02-14 13:14:10,593 INFO    MainThread:64326 [wandb_run.py:_finish():2164] finishing run aditya_s_k-iiit-hyderabad/ResNet_Experiments/n5z4r8ic
+2025-02-14 13:14:10,593 INFO    MainThread:64326 [jupyter.py:save_history():459] not saving jupyter history
+2025-02-14 13:14:10,594 INFO    MainThread:64326 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-02-14 13:14:10,594 INFO    MainThread:64326 [wandb_init.py:_jupyter_teardown():460] cleaning up jupyter logic
+2025-02-14 13:14:10,594 INFO    MainThread:64326 [wandb_run.py:_atexit_cleanup():2428] got exitcode: 0
+2025-02-14 13:14:10,594 INFO    MainThread:64326 [wandb_run.py:_restore():2410] restore
+2025-02-14 13:14:10,594 INFO    MainThread:64326 [wandb_run.py:_restore():2416] restore done
+2025-02-14 13:14:13,669 INFO    MainThread:64326 [wandb_run.py:_footer_history_summary_info():4049] rendering history
+2025-02-14 13:14:13,670 INFO    MainThread:64326 [wandb_run.py:_footer_history_summary_info():4081] rendering summary
+2025-02-14 13:14:13,674 INFO    MainThread:64326 [wandb_run.py:_footer_sync_info():4008] logging synced files

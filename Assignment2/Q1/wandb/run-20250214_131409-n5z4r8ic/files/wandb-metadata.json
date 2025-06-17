@@ -1,0 +1,36 @@
+{
+  "os":  "macOS-15.2-arm64-arm-64bit",
+  "python":  "3.12.1",
+  "startedAt":  "2025-02-14T07:44:09.769204Z",
+  "program":  "/Users/adityakr/Library/CloudStorage/OneDrive-IIITHyderabad/Mac/Aditya_Files/IIITH/Sem6/Computer_Vision/Assignments/Assignment2/assignment-2-Aditya-S-Kul/Q1/q1.ipynb",
+  "git":  {
+    "remote":  "git@github.com:computer-vision-spring-25/assignment-2-Aditya-S-Kul.git",
+    "commit":  "bf5434b354cf3d57428c4b40cf3d9914fab0785e"
+  },
+  "email":  "aditya.kulkarni.soc@gmail.com",
+  "root":  "/Users/adityakr/Library/CloudStorage/OneDrive-IIITHyderabad/Mac/Aditya_Files/IIITH/Sem6/Computer_Vision/Assignments/Assignment2/assignment-2-Aditya-S-Kul/Q1",
+  "host":  "Mac.mshome.net",
+  "username":  "adityakr",
+  "executable":  "/usr/local/bin/python3",
+  "codePathLocal":  "q1.ipynb",
+  "cpu_count":  11,
+  "cpu_count_logical":  11,
+  "disk":  {
+    "/":  {
+      "total":  "494384795648",
+      "used":  "321532149760"
+    }
+  },
+  "memory":  {
+    "total":  "19327352832"
+  },
+  "cpu":  {
+    "count":  11,
+    "countLogical":  11
+  },
+  "gpuapple":  {
+    "gpuType":  "Apple M3 Pro",
+    "vendor":  "sppci_vendor_Apple",
+    "cores":  14
+  }
+}

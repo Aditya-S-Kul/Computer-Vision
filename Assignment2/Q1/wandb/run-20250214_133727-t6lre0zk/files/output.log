@@ -1,0 +1,6 @@
+[Modified_A_Scratch_36] Epoch 1/5 - Train Loss: 1.3042, Train Acc: 0.5226, Test Loss: 1.5131, Test Acc: 0.5301, Test F1: 0.4967
+[Modified_A_Scratch_36] Epoch 2/5 - Train Loss: 0.8097, Train Acc: 0.7144, Test Loss: 0.7844, Test Acc: 0.7228, Test F1: 0.7169
+[Modified_A_Scratch_36] Epoch 3/5 - Train Loss: 0.6068, Train Acc: 0.7897, Test Loss: 0.6536, Test Acc: 0.7747, Test F1: 0.7762
+[Modified_A_Scratch_36] Epoch 4/5 - Train Loss: 0.4781, Train Acc: 0.8350, Test Loss: 0.5712, Test Acc: 0.8051, Test F1: 0.8038
+[Modified_A_Scratch_36] Epoch 5/5 - Train Loss: 0.3773, Train Acc: 0.8689, Test Loss: 0.5891, Test Acc: 0.8111, Test F1: 0.8105
+[Modified_A_Scratch_36] Final Test Loss: 0.5891, Test Accuracy: 0.8111, Test F1 Score: 0.8105

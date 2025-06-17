@@ -1,0 +1,203 @@
+2025-02-14 12:27:51,903 INFO    MainThread:25636 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2025-02-14 12:27:51,903 INFO    MainThread:25636 [wandb_setup.py:_flush():79] Configure stats pid to 25636
+2025-02-14 12:27:51,903 INFO    MainThread:25636 [wandb_setup.py:_flush():79] Loading settings from /Users/adityakr/.config/wandb/settings
+2025-02-14 12:27:51,903 INFO    MainThread:25636 [wandb_setup.py:_flush():79] Loading settings from /Users/adityakr/Library/CloudStorage/OneDrive-IIITHyderabad/Mac/Aditya_Files/IIITH/Sem6/Computer_Vision/Assignments/Assignment2/assignment-2-Aditya-S-Kul/Q1/wandb/settings
+2025-02-14 12:27:51,903 INFO    MainThread:25636 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2025-02-14 12:27:51,903 INFO    MainThread:25636 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2025-02-14 12:27:51,903 INFO    MainThread:25636 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2025-02-14 12:27:51,903 INFO    MainThread:25636 [wandb_setup.py:_flush():79] Applying login settings: {}
+2025-02-14 12:27:51,903 INFO    MainThread:25636 [wandb_init.py:_log_setup():532] Logging user logs to /Users/adityakr/Library/CloudStorage/OneDrive-IIITHyderabad/Mac/Aditya_Files/IIITH/Sem6/Computer_Vision/Assignments/Assignment2/assignment-2-Aditya-S-Kul/Q1/wandb/run-20250214_122751-05hy8ye0/logs/debug.log
+2025-02-14 12:27:51,903 INFO    MainThread:25636 [wandb_init.py:_log_setup():533] Logging internal logs to /Users/adityakr/Library/CloudStorage/OneDrive-IIITHyderabad/Mac/Aditya_Files/IIITH/Sem6/Computer_Vision/Assignments/Assignment2/assignment-2-Aditya-S-Kul/Q1/wandb/run-20250214_122751-05hy8ye0/logs/debug-internal.log
+2025-02-14 12:27:51,903 INFO    MainThread:25636 [wandb_init.py:init():617] calling init triggers
+2025-02-14 12:27:51,903 INFO    MainThread:25636 [wandb_init.py:init():624] wandb.init called with sweep_config: {}
+config: {}
+2025-02-14 12:27:51,903 INFO    MainThread:25636 [wandb_init.py:init():642] re-initializing run, found existing run on stack: ldm3b1hj
+2025-02-14 12:27:51,904 INFO    MainThread:25636 [wandb_run.py:_finish():2164] finishing run aditya_s_k-iiit-hyderabad/resnet18_experiments/ldm3b1hj
+2025-02-14 12:27:51,904 ERROR   MainThread:25636 [wandb_init.py:init():1262] error in wandb.init()
+Traceback (most recent call last):
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/wandb_init.py", line 1252, in init
+    return wi.init()
+           ^^^^^^^^^
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/wandb_init.py", line 652, in init
+    latest_run.finish()
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/wandb_run.py", line 452, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/wandb_run.py", line 393, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/wandb_run.py", line 2157, in finish
+    return self._finish(exit_code, quiet)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/wandb_run.py", line 2165, in _finish
+    with telemetry.context(run=self) as tel:
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/lib/telemetry.py", line 42, in __exit__
+    self._run._telemetry_callback(self._obj)
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/wandb_run.py", line 806, in _telemetry_callback
+    self._telemetry_flush()
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/wandb_run.py", line 819, in _telemetry_flush
+    self._backend.interface._publish_telemetry(self._telemetry_obj)
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/interface/interface_shared.py", line 101, in _publish_telemetry
+    self._publish(rec)
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/interface/interface_sock.py", line 51, in _publish
+    self._sock_client.send_record_publish(record)
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/lib/sock_client.py", line 225, in send_record_publish
+    self.send_server_request(server_req)
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/lib/sock_client.py", line 157, in send_server_request
+    self._send_message(msg)
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/lib/sock_client.py", line 154, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/lib/sock_client.py", line 132, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+           ^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+2025-02-14 12:27:52,104 INFO    MainThread:25636 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-02-14 12:27:52,104 INFO    MainThread:25636 [wandb_init.py:_pause_backend():443] pausing backend
+2025-02-14 12:30:04,498 INFO    MainThread:25636 [wandb_init.py:_resume_backend():448] resuming backend
+2025-02-14 12:30:04,618 ERROR   MainThread:25636 [wandb_init.py:init():1262] error in wandb.init()
+Traceback (most recent call last):
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/wandb_init.py", line 1251, in init
+    wi.setup(kwargs)
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/wandb_init.py", line 221, in setup
+    with telemetry.context(obj=self._init_telemetry_obj) as tel:
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/lib/telemetry.py", line 42, in __exit__
+    self._run._telemetry_callback(self._obj)
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/wandb_run.py", line 806, in _telemetry_callback
+    self._telemetry_flush()
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/wandb_run.py", line 819, in _telemetry_flush
+    self._backend.interface._publish_telemetry(self._telemetry_obj)
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/interface/interface_shared.py", line 101, in _publish_telemetry
+    self._publish(rec)
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/interface/interface_sock.py", line 51, in _publish
+    self._sock_client.send_record_publish(record)
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/lib/sock_client.py", line 225, in send_record_publish
+    self.send_server_request(server_req)
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/lib/sock_client.py", line 157, in send_server_request
+    self._send_message(msg)
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/lib/sock_client.py", line 154, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/lib/sock_client.py", line 132, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+           ^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+2025-02-14 12:30:05,006 INFO    MainThread:25636 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-02-14 12:30:05,006 INFO    MainThread:25636 [wandb_init.py:_pause_backend():443] pausing backend
+2025-02-14 12:30:16,054 INFO    MainThread:25636 [wandb_init.py:_resume_backend():448] resuming backend
+2025-02-14 12:30:16,109 ERROR   MainThread:25636 [wandb_init.py:init():1262] error in wandb.init()
+Traceback (most recent call last):
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/wandb_init.py", line 1251, in init
+    wi.setup(kwargs)
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/wandb_init.py", line 221, in setup
+    with telemetry.context(obj=self._init_telemetry_obj) as tel:
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/lib/telemetry.py", line 42, in __exit__
+    self._run._telemetry_callback(self._obj)
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/wandb_run.py", line 806, in _telemetry_callback
+    self._telemetry_flush()
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/wandb_run.py", line 819, in _telemetry_flush
+    self._backend.interface._publish_telemetry(self._telemetry_obj)
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/interface/interface_shared.py", line 101, in _publish_telemetry
+    self._publish(rec)
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/interface/interface_sock.py", line 51, in _publish
+    self._sock_client.send_record_publish(record)
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/lib/sock_client.py", line 225, in send_record_publish
+    self.send_server_request(server_req)
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/lib/sock_client.py", line 157, in send_server_request
+    self._send_message(msg)
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/lib/sock_client.py", line 154, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/lib/sock_client.py", line 132, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+           ^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+2025-02-14 12:30:16,228 INFO    MainThread:25636 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-02-14 12:30:16,228 INFO    MainThread:25636 [wandb_init.py:_pause_backend():443] pausing backend
+2025-02-14 12:34:02,007 INFO    MainThread:25636 [wandb_init.py:_resume_backend():448] resuming backend
+2025-02-14 12:34:02,108 ERROR   MainThread:25636 [wandb_init.py:init():1262] error in wandb.init()
+Traceback (most recent call last):
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/wandb_init.py", line 1251, in init
+    wi.setup(kwargs)
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/wandb_init.py", line 221, in setup
+    with telemetry.context(obj=self._init_telemetry_obj) as tel:
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/lib/telemetry.py", line 42, in __exit__
+    self._run._telemetry_callback(self._obj)
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/wandb_run.py", line 806, in _telemetry_callback
+    self._telemetry_flush()
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/wandb_run.py", line 819, in _telemetry_flush
+    self._backend.interface._publish_telemetry(self._telemetry_obj)
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/interface/interface_shared.py", line 101, in _publish_telemetry
+    self._publish(rec)
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/interface/interface_sock.py", line 51, in _publish
+    self._sock_client.send_record_publish(record)
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/lib/sock_client.py", line 225, in send_record_publish
+    self.send_server_request(server_req)
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/lib/sock_client.py", line 157, in send_server_request
+    self._send_message(msg)
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/lib/sock_client.py", line 154, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/lib/sock_client.py", line 132, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+           ^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+2025-02-14 12:34:02,407 INFO    MainThread:25636 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-02-14 12:34:02,407 INFO    MainThread:25636 [wandb_init.py:_pause_backend():443] pausing backend
+2025-02-14 12:37:24,529 INFO    MainThread:25636 [wandb_init.py:_resume_backend():448] resuming backend
+2025-02-14 12:37:26,818 ERROR   MainThread:25636 [wandb_init.py:init():1262] error in wandb.init()
+Traceback (most recent call last):
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/wandb_init.py", line 1251, in init
+    wi.setup(kwargs)
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/wandb_init.py", line 221, in setup
+    with telemetry.context(obj=self._init_telemetry_obj) as tel:
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/lib/telemetry.py", line 42, in __exit__
+    self._run._telemetry_callback(self._obj)
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/wandb_run.py", line 806, in _telemetry_callback
+    self._telemetry_flush()
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/wandb_run.py", line 819, in _telemetry_flush
+    self._backend.interface._publish_telemetry(self._telemetry_obj)
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/interface/interface_shared.py", line 101, in _publish_telemetry
+    self._publish(rec)
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/interface/interface_sock.py", line 51, in _publish
+    self._sock_client.send_record_publish(record)
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/lib/sock_client.py", line 225, in send_record_publish
+    self.send_server_request(server_req)
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/lib/sock_client.py", line 157, in send_server_request
+    self._send_message(msg)
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/lib/sock_client.py", line 154, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/lib/sock_client.py", line 132, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+           ^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+2025-02-14 12:37:26,972 INFO    MainThread:25636 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-02-14 12:37:26,972 INFO    MainThread:25636 [wandb_init.py:_pause_backend():443] pausing backend
+2025-02-14 12:38:22,104 INFO    MainThread:25636 [wandb_init.py:_resume_backend():448] resuming backend
+2025-02-14 12:38:24,271 ERROR   MainThread:25636 [wandb_init.py:init():1262] error in wandb.init()
+Traceback (most recent call last):
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/wandb_init.py", line 1251, in init
+    wi.setup(kwargs)
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/wandb_init.py", line 221, in setup
+    with telemetry.context(obj=self._init_telemetry_obj) as tel:
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/lib/telemetry.py", line 42, in __exit__
+    self._run._telemetry_callback(self._obj)
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/wandb_run.py", line 806, in _telemetry_callback
+    self._telemetry_flush()
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/wandb_run.py", line 819, in _telemetry_flush
+    self._backend.interface._publish_telemetry(self._telemetry_obj)
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/interface/interface_shared.py", line 101, in _publish_telemetry
+    self._publish(rec)
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/interface/interface_sock.py", line 51, in _publish
+    self._sock_client.send_record_publish(record)
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/lib/sock_client.py", line 225, in send_record_publish
+    self.send_server_request(server_req)
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/lib/sock_client.py", line 157, in send_server_request
+    self._send_message(msg)
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/lib/sock_client.py", line 154, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/Users/adityakr/Library/Python/3.12/lib/python/site-packages/wandb/sdk/lib/sock_client.py", line 132, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+           ^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+2025-02-14 12:38:24,434 INFO    MainThread:25636 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-02-14 12:38:24,435 INFO    MainThread:25636 [wandb_init.py:_pause_backend():443] pausing backend
+2025-02-14 12:41:31,704 INFO    MainThread:25636 [wandb_init.py:_resume_backend():448] resuming backend
+2025-02-14 12:41:33,833 INFO    MainThread:25636 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-02-14 12:41:33,833 INFO    MainThread:25636 [wandb_init.py:_pause_backend():443] pausing backend

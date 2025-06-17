@@ -1,0 +1,6 @@
+[Baseline_Scratch_224] Epoch 1/5 - Train Loss: 1.3553, Train Acc: 0.5067, Test Loss: 1.1855, Test Acc: 0.5917, Test F1: 0.5785
+[Baseline_Scratch_224] Epoch 2/5 - Train Loss: 0.8357, Train Acc: 0.7044, Test Loss: 0.8143, Test Acc: 0.7191, Test F1: 0.7113
+[Baseline_Scratch_224] Epoch 3/5 - Train Loss: 0.6261, Train Acc: 0.7803, Test Loss: 0.7728, Test Acc: 0.7354, Test F1: 0.7317
+[Baseline_Scratch_224] Epoch 4/5 - Train Loss: 0.5012, Train Acc: 0.8239, Test Loss: 0.6122, Test Acc: 0.7886, Test F1: 0.7918
+[Baseline_Scratch_224] Epoch 5/5 - Train Loss: 0.4014, Train Acc: 0.8613, Test Loss: 0.5727, Test Acc: 0.8088, Test F1: 0.8076
+[Baseline_Scratch_224] Final Test Loss: 0.5727, Test Accuracy: 0.8088, Test F1 Score: 0.8076

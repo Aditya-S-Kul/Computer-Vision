@@ -1,0 +1,10 @@
+Epoch [1/10], Train Loss: 1.3888, Train Acc: 50.53%, Test Loss: 1.4774, Test Acc: 53.33%, F1 Score: 0.5137
+Epoch [2/10], Train Loss: 1.0128, Train Acc: 64.68%, Test Loss: 1.0347, Test Acc: 63.73%, F1 Score: 0.6385
+Epoch [3/10], Train Loss: 0.8415, Train Acc: 70.73%, Test Loss: 1.0144, Test Acc: 65.34%, F1 Score: 0.6535
+Epoch [4/10], Train Loss: 0.7055, Train Acc: 75.33%, Test Loss: 1.1384, Test Acc: 61.58%, F1 Score: 0.6243
+Epoch [5/10], Train Loss: 0.5845, Train Acc: 79.85%, Test Loss: 0.9511, Test Acc: 68.25%, F1 Score: 0.6820
+Epoch [6/10], Train Loss: 0.4634, Train Acc: 83.85%, Test Loss: 0.9407, Test Acc: 70.31%, F1 Score: 0.7002
+Epoch [7/10], Train Loss: 0.3582, Train Acc: 87.49%, Test Loss: 1.0208, Test Acc: 69.41%, F1 Score: 0.6936
+Epoch [8/10], Train Loss: 0.2676, Train Acc: 90.73%, Test Loss: 1.1871, Test Acc: 68.80%, F1 Score: 0.6918
+Epoch [9/10], Train Loss: 0.2048, Train Acc: 92.86%, Test Loss: 1.1686, Test Acc: 69.77%, F1 Score: 0.6984
+Epoch [10/10], Train Loss: 0.1629, Train Acc: 94.27%, Test Loss: 1.3677, Test Acc: 67.77%, F1 Score: 0.6806

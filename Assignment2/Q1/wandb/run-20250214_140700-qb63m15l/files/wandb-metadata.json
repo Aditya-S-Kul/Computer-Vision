@@ -1,0 +1,16 @@
+{
+  "os":  "macOS-15.2-arm64-arm-64bit",
+  "python":  "3.12.1",
+  "startedAt":  "2025-02-14T08:37:00.414276Z",
+  "program":  "/Users/adityakr/Library/CloudStorage/OneDrive-IIITHyderabad/Mac/Aditya_Files/IIITH/Sem6/Computer_Vision/Assignments/Assignment2/assignment-2-Aditya-S-Kul/Q1/q1.ipynb",
+  "git":  {
+    "remote":  "git@github.com:computer-vision-spring-25/assignment-2-Aditya-S-Kul.git",
+    "commit":  "bf5434b354cf3d57428c4b40cf3d9914fab0785e"
+  },
+  "email":  "aditya.kulkarni.soc@gmail.com",
+  "root":  "/Users/adityakr/Library/CloudStorage/OneDrive-IIITHyderabad/Mac/Aditya_Files/IIITH/Sem6/Computer_Vision/Assignments/Assignment2/assignment-2-Aditya-S-Kul/Q1",
+  "host":  "Mac.mshome.net",
+  "username":  "adityakr",
+  "executable":  "/usr/local/bin/python3",
+  "codePathLocal":  "q1.ipynb"
+}

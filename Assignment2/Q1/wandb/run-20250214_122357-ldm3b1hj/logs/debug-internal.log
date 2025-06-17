@@ -1,0 +1,10 @@
+{"time":"2025-02-14T12:23:57.8235+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2025-02-14T12:23:57.82352+05:30","level":"INFO","msg":"created symlink","path":"/Users/adityakr/Library/CloudStorage/OneDrive-IIITHyderabad/Mac/Aditya_Files/IIITH/Sem6/Computer_Vision/Assignments/Assignment2/assignment-2-Aditya-S-Kul/Q1/wandb/run-20250214_122357-ldm3b1hj/logs/debug-core.log"}
+{"time":"2025-02-14T12:23:57.823629+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2025-02-14T12:23:57.828416+05:30","level":"INFO","msg":"created new stream","id":"ldm3b1hj"}
+{"time":"2025-02-14T12:23:57.828461+05:30","level":"INFO","msg":"stream: started","id":"ldm3b1hj"}
+{"time":"2025-02-14T12:23:57.828474+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"ldm3b1hj"}}
+{"time":"2025-02-14T12:23:57.828462+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"ldm3b1hj"}}
+{"time":"2025-02-14T12:23:57.828467+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"ldm3b1hj"}}
+{"time":"2025-02-14T12:23:58.320776+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2025-02-14T12:23:58.321546+05:30","level":"INFO","msg":"Starting system monitor"}

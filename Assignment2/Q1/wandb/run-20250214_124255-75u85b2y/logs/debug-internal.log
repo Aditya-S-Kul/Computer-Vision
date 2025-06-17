@@ -1,0 +1,20 @@
+{"time":"2025-02-14T12:42:55.878811+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2025-02-14T12:42:55.878861+05:30","level":"INFO","msg":"created symlink","path":"/Users/adityakr/Library/CloudStorage/OneDrive-IIITHyderabad/Mac/Aditya_Files/IIITH/Sem6/Computer_Vision/Assignments/Assignment2/assignment-2-Aditya-S-Kul/Q1/wandb/run-20250214_124255-75u85b2y/logs/debug-core.log"}
+{"time":"2025-02-14T12:42:55.881488+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2025-02-14T12:42:55.891875+05:30","level":"INFO","msg":"created new stream","id":"75u85b2y"}
+{"time":"2025-02-14T12:42:55.891948+05:30","level":"INFO","msg":"stream: started","id":"75u85b2y"}
+{"time":"2025-02-14T12:42:55.891953+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"75u85b2y"}}
+{"time":"2025-02-14T12:42:55.892013+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"75u85b2y"}}
+{"time":"2025-02-14T12:42:55.891972+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"75u85b2y"}}
+{"time":"2025-02-14T12:42:56.521032+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2025-02-14T12:42:56.522099+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-14T12:42:56.869379+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-14T12:44:12.178044+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-14T12:44:12.289326+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-14T12:44:12.289363+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-14T12:44:18.403668+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-14T12:44:19.879619+05:30","level":"INFO","msg":"stream: closing","id":"75u85b2y"}
+{"time":"2025-02-14T12:44:19.879658+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"75u85b2y"}}
+{"time":"2025-02-14T12:44:19.879697+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"75u85b2y"}}
+{"time":"2025-02-14T12:44:19.879681+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"75u85b2y"}}
+{"time":"2025-02-14T12:44:19.87994+05:30","level":"INFO","msg":"stream: closed","id":"75u85b2y"}
