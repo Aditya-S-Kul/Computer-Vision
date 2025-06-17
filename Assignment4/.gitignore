@@ -1,0 +1,9 @@
+Q1/dataset_224
+Q2/dataset_256
+Q1/results/__results___files
+Q2/results1/__results___files
+Q2/results2/__results___files
+Q2/results3/__results___files
+Q2/results4/__results___files
+*.pth
+*.zip
